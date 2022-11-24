@@ -1,0 +1,305 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap");
+.navbar {
+  background-color: #E10600;
+}
+.navbar a {
+  text-decoration: none;
+  color: #ffffff;
+  padding-right: 10px;
+  font-weight: 600;
+}
+.navbar a:hover {
+  color: #000000;
+  text-decoration: none;
+}
+.navbar .navbar-toggler {
+  font-size: 40px;
+  background-color: #ffffff;
+}
+.navbar .navbar-toggler:focus {
+  outline: none;
+}
+.navbar .logo {
+  min-width: 60px;
+  max-width: 100px;
+}
+
+footer {
+  background-color: #E10600;
+}
+footer h5 {
+  font-size: 12px;
+  color: #ffffff;
+}
+footer p {
+  font-size: 8px;
+  color: #ffffff;
+}
+
+.margen_nav {
+  margin-top: 50px;
+  background-color: #15151E;
+}
+
+.banner {
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: #ffffff;
+  text-align: center;
+}
+
+.inferior_intro {
+  margin: 50px 0px;
+}
+.inferior_intro h2 {
+  font-size: 32px;
+  font-weight: 400;
+}
+.inferior_intro p {
+  font-size: 16px;
+  max-width: 513px;
+}
+.inferior_intro .boton {
+  font-size: 25px;
+  text-decoration: none;
+  color: #E10600;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.inferior_intro .boton svg {
+  transition: all 1.9s ease-in;
+}
+.inferior_intro .boton:hover svg {
+  transform: translateX(2000px);
+}
+
+.iconofooter {
+  display: flex;
+}
+.iconofooter ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+}
+.iconofooter ul a {
+  padding-left: 10px;
+}
+
+.margen50 {
+  margin-top: 100px;
+}
+.margen50 .podio {
+  padding-left: 20px;
+  padding-top: 15px;
+}
+.margen50 .estadisticas50 {
+  padding-left: 12px;
+}
+.margen50 .estadisticas50 ul {
+  padding: 5px;
+}
+.margen50 .estadisticas50 li {
+  padding: 0px;
+}
+
+.inferior50 {
+  margin-top: 50px;
+}
+.inferior50 .p3_50 {
+  margin: 0px;
+}
+.inferior50 .p4_50 {
+  margin-bottom: 50px;
+}
+
+.margen60 {
+  margin-top: 100px;
+}
+.margen60 .podio60 {
+  padding-left: 20px;
+  padding-top: 15px;
+}
+.margen60 .estadisticas60 {
+  padding-left: 12px;
+}
+.margen60 .estadisticas60 ul {
+  padding: 5px;
+}
+.margen60 .estadisticas60 li {
+  padding: 0px;
+}
+
+.inferior60 {
+  margin-top: 50px;
+}
+.inferior60 .p1_60 {
+  margin: 0px;
+}
+
+.margen70 {
+  margin-top: 100px;
+}
+.margen70 .podio70 {
+  padding-left: 20px;
+  padding-top: 15px;
+}
+.margen70 .estadisticas70 {
+  padding-left: 12px;
+}
+.margen70 .estadisticas70 ul {
+  padding: 5px;
+}
+.margen70 .estadisticas70 li {
+  padding: 0px;
+}
+
+.inferior70 {
+  margin-top: 50px;
+}
+.inferior70 .p1_70 {
+  margin: 0px;
+}
+.inferior70 .p2_70 {
+  margin: 0px;
+}
+.inferior70 .p3_70 {
+  margin-bottom: 25px;
+}
+.inferior70 .p4_70 {
+  margin: 0px;
+}
+.inferior70 .p5_70 {
+  margin-bottom: 25px;
+}
+.inferior70 .p6_70 {
+  margin: 0px;
+}
+.inferior70 .p7_70 {
+  margin: 0px;
+}
+.inferior70 .p8_70 {
+  margin-bottom: 50px;
+}
+
+.margen80 {
+  margin-top: 100px;
+}
+.margen80 .podio80 {
+  padding-left: 20px;
+  padding-top: 15px;
+}
+.margen80 .estadisticas80 {
+  padding-left: 12px;
+}
+.margen80 .estadisticas80 ul {
+  padding: 5px;
+}
+.margen80 .estadisticas80 li {
+  padding: 0px;
+}
+
+.inferior80 {
+  margin-top: 50px;
+}
+.inferior80 .p1_80 {
+  margin: 0px;
+}
+.inferior80 .p2_80 {
+  margin: 0px;
+}
+.inferior80 .p3_80 {
+  margin: 0px;
+}
+.inferior80 .p4_80 {
+  margin-bottom: 25px;
+}
+.inferior80 .p5_80 {
+  margin: 0px;
+}
+.inferior80 .p6_80 {
+  margin: 0px;
+}
+.inferior80 .p7_80 {
+  margin-bottom: 25px;
+}
+.inferior80 .p8_80 {
+  margin: 0px;
+}
+.inferior80 .p9_80 {
+  margin: 0px;
+}
+.inferior80 .p10_80 {
+  margin: 0px;
+}
+.inferior80 .p11_80 {
+  margin: 0px;
+}
+.inferior80 .p12_80 {
+  margin: 0px;
+}
+.inferior80 .p13_80 {
+  margin-bottom: 50px;
+}
+
+.margen90 {
+  margin-top: 100px;
+}
+.margen90 .podio90 {
+  padding-left: 20px;
+  padding-top: 15px;
+}
+.margen90 .estadisticas90 {
+  padding-left: 12px;
+}
+.margen90 .estadisticas90 ul {
+  padding: 5px;
+}
+.margen90 .estadisticas90 li {
+  padding: 0px;
+}
+
+.inferior90 {
+  margin-top: 50px;
+}
+.inferior90 .p1_90 {
+  margin: 0px;
+}
+.inferior90 .p2_90 {
+  margin: 0px;
+}
+.inferior90 .p3_90 {
+  margin: 0px;
+}
+.inferior90 .p4_90 {
+  margin-bottom: 25px;
+}
+.inferior90 .p5_90 {
+  margin: 0px;
+}
+.inferior90 .p6_90 {
+  margin: 0px;
+}
+.inferior90 .p7_90 {
+  margin: 0px;
+}
+.inferior90 .p8_90 {
+  margin: 0px;
+}
+.inferior90 .p9_90 {
+  margin: 0px;
+}
+.inferior90 .p10_90 {
+  margin: 0px;
+}
+.inferior90 .p11_90 {
+  margin-bottom: 25px;
+}
+.inferior90 .p12_90 {
+  margin-bottom: 50px;
+}/*# sourceMappingURL=estilof1.css.map */

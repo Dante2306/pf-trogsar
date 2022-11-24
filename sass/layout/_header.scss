@@ -1,0 +1,33 @@
+.navbar{
+    background-color:$color1 ;
+    a{
+        text-decoration: none;
+            color: $colorfondo;
+            padding-right: 10px;
+            font-weight: 600; }
+            a:hover {
+            color: $colorletra;
+            text-decoration: none; 
+        }
+        .navbar-toggler {
+            font-size: 40px;
+            background-color: $colorfondo; }
+            .navbar-toggler:focus {
+            outline: none; }
+            .logo {
+            min-width: 60px;
+            max-width: 100px; }          
+}
+
+footer{
+    background-color: $color1;
+    
+    h5{
+        font-size: 12px;
+        color: $colorfondo;
+    }
+    p{
+        font-size: 8px;
+        color: $colorfondo;
+    }
+}
